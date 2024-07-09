@@ -1,6 +1,6 @@
 # mihneasteiu.github.io
 
-##Introduction
+## Introduction
 
 This is my personal portfolio website
 
