@@ -22,7 +22,6 @@ const navSlide = () => {
     });
 }
 
-// Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -41,18 +40,14 @@ function handleScroll() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     
     if (scrollTop > lastScrollTop && scrollTop > navbarHeight) {
-        // Scrolling down & past the navbar height
         navbar.classList.add('hidden');
     } else {
-        // Scrolling up or at the top
         navbar.classList.remove('hidden');
     }
     
     lastScrollTop = scrollTop;
 }
 
-// Initial call to set correct state on page load
 handleScroll();
 
-// Add scroll event listener
 window.addEventListener('scroll', handleScroll);

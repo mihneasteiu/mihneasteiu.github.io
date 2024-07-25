@@ -92,7 +92,7 @@ main {
 }
 
 section {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
 }
 
 h1, h2, h3 {
@@ -192,37 +192,6 @@ h1, h2, h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #3498db;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.project-card {
-    background-color: #f1f1f1;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-.project-link {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #3498db;
-    text-decoration: none;
-}
-
-.blog-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-}
-
-.blog-post {
-    background-color: #f1f1f1;
-    padding: 1rem;
-    border-radius: 5px;
 }
 
 .read-more {
