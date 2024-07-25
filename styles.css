@@ -194,6 +194,54 @@ h1, h2, h3 {
     color: #3498db;
 }
 
+#publications {
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+}
+
+.publications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.publication-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.publication-item h3 {
+    color: #3498db;
+    margin-bottom: 0.5rem;
+}
+
+.publication-item p {
+    margin-bottom: 0.5rem;
+}
+
+.publication-item .authors {
+    font-style: italic;
+}
+
+.publication-item .journal {
+    font-weight: bold;
+}
+
+.publication-item .link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.publication-item .link:hover {
+    text-decoration: underline;
+}
+
 .read-more {
     display: inline-block;
     margin-top: 1rem;
